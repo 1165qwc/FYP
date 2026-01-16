@@ -1,0 +1,31 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Jupyter notebooks
+*.ipynb text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Data files (treat as binary)
+*.jsonl binary
+*.json binary
+*.h5 binary
+*.npy binary
+*.pkl binary
+
+# Video files (treat as binary)
+*.mp4 binary
+*.avi binary
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
